@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: linear-gradient(to bottom right,#dee9e1, #fafff9); */
+}
+.rectangle{
+   display: inline-block;
+    height: 380px;
+    width: 180px;
+    background: #0a5b5e;
+    border-bottom-right-radius: 250px;
+}
+.logo {
+    margin-left: 80px;
+}
+.logo img {
+    margin-top: 5px;
+    height: 60px;
+}
+.logo-text {
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    left: 110px;
+    font-size: 30px;
+    color: white;
+}
+.navbar{
+display: inline-block;
+padding-left: 80px;
+position: relative;
+bottom: 12px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: #112f1c;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.line {
+    display: inline-block;
+    height: 2px;
+    background-color: #0a5b5e;
+    width: 250px;
+    margin-bottom: 6px;
+}
+.plant-first{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+
+}
+.plant-first img{
+    height: 320px;
+}
+
+.content{
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    width: 600px;
+}
+.main-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.sub-text{
+    width: 65%;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.read-btn{
+    font-size: 20px;
+    padding: 6px 24px;
+    margin-top: 16px;
+    border: none;
+    background: #0a5b5e;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.list {
+    position: absolute;
+    top: 180px;
+    left: 950px;
+}
+.price {
+    background: #0a5b5e;
+    padding: 10px 30px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.plants {
+    margin: 10px 0;
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 20px;
+    background: #e5ece5;
+    font-weight: 500;
+}
+.bottom-bar {
+    width: 900px;
+    height: 100px;
+    background: #c6cdc6;
+    position: absolute;
+    left: 70px;
+    top: 500px;
+}
+.discount{
+    color: #22392c;
+    width: 30%;
+    padding: 15px 15px;
+}
+.discount-head{
+    font-size: 24px;
+    font-weight: bold;
+}
+.discount-body{
+    font-size: small;
+}
+
+.plantb{
+    position: absolute;
+    top: 370px;
+    left: 400px;
+}
+.plantb img{
+    height: 200px;
+}
+.plantc{
+    position: absolute;
+    top: 370px;
+    left:580px;
+}
+.plantc img {
+    height: 200px;
+}
+.plantd{
+    position: absolute;
+    top: 370px;
+    left:760px;
+}
+.plantd img{
+    height: 200px;
+}
+.contact{
+    position: absolute;
+    top: 510px;
+    left: 1010px;
+    color:#22392c;
+    font-size: 18px;
+}
+
+
+.corner-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.corner-image img{
+    height: 120px;
+}
