@@ -57,17 +57,17 @@ bottom: 12px;
     left: 70px;
     top: 120px;
     background: #cfd9da;
-    height: 320px;
-    width: 220px;
+    height: 350px;
+    width: 250px;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
 
 }
 .plant-first img{
-    height: 260px;
+    height: 300px;
     position:relative;
-    top: 65px;
-    right: 40px;
+    top: 58px;
+    right: 45px;
 }
 
 .content{
@@ -78,7 +78,7 @@ bottom: 12px;
     line-height: 1.2;
 }
 .main-text{
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
 }
 .sub-text{
@@ -109,6 +109,7 @@ bottom: 12px;
     color: white;
     font-size: 24px;
     font-weight: bold;
+    cursor: pointer;
 }
 .plants {
     margin: 10px 0;
@@ -117,6 +118,7 @@ bottom: 12px;
     font-size: 20px;
     background: #e5ece5;
     font-weight: 500;
+    cursor: pointer;
 }
 .bottom-bar {
     width: 900px;
