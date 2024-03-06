@@ -48,7 +48,7 @@ bottom: 12px;
     display: inline-block;
     height: 2px;
     background-color: #0a5b5e;
-    width: 300px;
+    width: 250px;
     margin-bottom: 6px;
 }
 .plant-first{
@@ -100,11 +100,11 @@ bottom: 12px;
 .list {
     position: absolute;
     top: 180px;
-    left: 1060px;
+    left: 1000px;
 }
 .price {
     background: #0a5b5e;
-    padding: 10px 30px;
+    padding: 5px 30px;
     text-align: center;
     color: white;
     font-size: 24px;
@@ -167,8 +167,8 @@ bottom: 12px;
 }
 .contact{
     position: absolute;
-    top: 485px;
-    left: 1125px;
+    top: 468px;
+    left: 1075px;
     color:#22392c;
     font-size: 16px;
     word-spacing: 1.5;
@@ -187,7 +187,7 @@ bottom: 12px;
     bottom: 0;
 }
 .corner-image img{
-    height: 120px;
+    height: 140px;
     position: fixed;
     bottom: 0px;
     right: 0px;
