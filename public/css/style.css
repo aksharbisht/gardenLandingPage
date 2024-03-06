@@ -54,18 +54,26 @@ bottom: 12px;
 .plant-first{
     display: inline-block;
     position: absolute;
-    left: 30px;
+    left: 70px;
     top: 120px;
+    background: #cfd9da;
+    height: 320px;
+    width: 220px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
 
 }
 .plant-first img{
-    height: 320px;
+    height: 260px;
+    position:relative;
+    top: 65px;
+    right: 40px;
 }
 
 .content{
     position: absolute;
     top: 130px;
-    left: 400px;
+    left: 380px;
     width: 600px;
     line-height: 1.2;
 }
@@ -134,7 +142,7 @@ bottom: 12px;
 .plantb{
     position: absolute;
     top: 370px;
-    left: 400px;
+    left: 380px;
 }
 .plantb img{
     height: 200px;
@@ -142,7 +150,7 @@ bottom: 12px;
 .plantc{
     position: absolute;
     top: 370px;
-    left:580px;
+    left:560px;
 }
 .plantc img {
     height: 200px;
@@ -150,7 +158,7 @@ bottom: 12px;
 .plantd{
     position: absolute;
     top: 370px;
-    left:760px;
+    left:740px;
 }
 .plantd img{
     height: 200px;
@@ -171,10 +179,13 @@ bottom: 12px;
 }
 
 .corner-image {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
 }
 .corner-image img{
     height: 120px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
