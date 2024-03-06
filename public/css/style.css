@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
 }
 body{
     /* background-image: linear-gradient(to bottom right,#dee9e1, #fafff9); */
@@ -39,7 +42,7 @@ bottom: 12px;
     text-decoration: none;
     color: #112f1c;
     font-size: 20px;
-    padding: 0px 26px;
+    padding: 0px 22px;
 }
 .line {
     display: inline-block;
@@ -64,6 +67,7 @@ bottom: 12px;
     top: 130px;
     left: 400px;
     width: 600px;
+    line-height: 1.2;
 }
 .main-text{
     font-size: 40px;
@@ -71,7 +75,7 @@ bottom: 12px;
 }
 .sub-text{
     width: 65%;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
@@ -82,7 +86,7 @@ bottom: 12px;
     border: none;
     background: #0a5b5e;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Bodoni Moda", serif;
     cursor: pointer;
 }
 .list {
@@ -108,7 +112,7 @@ bottom: 12px;
 }
 .bottom-bar {
     width: 900px;
-    height: 100px;
+    height: 110px;
     background: #c6cdc6;
     position: absolute;
     left: 70px;
@@ -117,10 +121,10 @@ bottom: 12px;
 .discount{
     color: #22392c;
     width: 30%;
-    padding: 15px 15px;
+    padding: 8px 15px;
 }
 .discount-head{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
 }
 .discount-body{
@@ -153,10 +157,10 @@ bottom: 12px;
 }
 .contact{
     position: absolute;
-    top: 500px;
+    top: 480px;
     left: 1120px;
     color:#22392c;
-    font-size: 18px;
+    font-size: 16px;
     word-spacing: 1.5;
 }
 .contact-us{
