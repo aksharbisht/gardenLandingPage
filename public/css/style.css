@@ -6,9 +6,9 @@
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
 }
-body{
-    /* background-image: linear-gradient(to bottom right,#dee9e1, #fafff9); */
-}
+
+
+
 .rectangle{
    display: inline-block;
     height: 380px;
@@ -20,13 +20,13 @@ body{
     margin-left: 80px;
 }
 .logo img {
-    margin-top: 5px;
+    margin-top: 40px;
     height: 60px;
 }
 .logo-text {
     display: inline-block;
     position: absolute;
-    top: 18px;
+    top: 53px;
     left: 110px;
     font-size: 30px;
     color: white;
@@ -48,14 +48,14 @@ bottom: 12px;
     display: inline-block;
     height: 2px;
     background-color: #0a5b5e;
-    width: 290px;
+    width: 270px;
     margin-bottom: 5px;
 }
 .plant-first{
     display: inline-block;
     position: absolute;
     left: 70px;
-    top: 120px;
+    top: 140px;
     background: #cfd9da;
     height: 330px;
     width: 220px;
@@ -64,9 +64,9 @@ bottom: 12px;
 
 }
 .plant-first img{
-        height: 270px;
+        height: 250px;
         position: relative;
-        top: 66px;
+        top: 85px;
         right: 45px;
 }
 
@@ -100,7 +100,7 @@ bottom: 12px;
 .list {
     position: absolute;
     top: 180px;
-    left: 1050px;
+    left: 1035px;
 }
 .price {
     background: #0a5b5e;
@@ -122,7 +122,7 @@ bottom: 12px;
 }
 .bottom-bar {
     width: 930px;
-    height: 100px;
+    height: 110px;
     background: #c6cdc6;
     position: absolute;
     left: 70px;
@@ -130,8 +130,8 @@ bottom: 12px;
 }
 .discount{
     color: #22392c;
-    width: 30%;
-    padding: 8px 15px;
+    width: 33%;
+    padding: 8px 20px;
 }
 .discount-head{
     font-size: 20px;
@@ -143,32 +143,32 @@ bottom: 12px;
 
 .plantb{
     position: absolute;
-    top: 360px;
-    left: 380px;
+    top: 370px;
+    left: 360px;
 }
 .plantb img{
-    height: 180px;
+    height: 160px;
 }
 .plantc{
     position: absolute;
-    top: 360px;
-    left:570px;
+    top: 370px;
+    left:550px;
 }
 .plantc img {
-    height: 180px;
+    height: 160px;
 }
 .plantd{
     position: absolute;
-    top: 360px;
-    left:760px;
+    top: 370px;
+    left:730px;
 }
 .plantd img{
-    height: 180px;
+    height: 160px;
 }
 .contact{
     position: absolute;
     top: 496px;
-    left: 1100px;
+    left: 1088px;
     color:#22392c;
     font-size: 16px;
     word-spacing: 1.5;
@@ -182,7 +182,7 @@ bottom: 12px;
 }
 
 .corner-image img{
-    height: 120px;
+    height: 160px;
     position: fixed;
     bottom: 0px;
     right: 0px;
